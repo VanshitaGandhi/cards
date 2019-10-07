@@ -18,7 +18,7 @@ html {
 
 .cards li {
   display: inline-block;
-  margin: .5em 1em;
+  margin: 0 .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
@@ -44,14 +44,15 @@ html {
 
 .cards dt {
   display: inline-block;
-  width: 6rem;
+  width: 6em;
+
   font-style: italic;
 }
 
 .cards dd {
   display: inline-block;
   margin: 0;
-  min-width: 9rem;
+  min-width: 9em;
 }
 
 .cards div {
